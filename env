@@ -1,1 +1,2 @@
 KARKEN_URL=
+POSTGRES_URL=postgres://postgres:postgres@localhost:5432/database?sslmode=disable

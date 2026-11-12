@@ -30,7 +30,7 @@ type Karken interface {
 	GetSymbols() map[string]Asset
 }
 
-func New(c *config.Config) *KarkenAdaptor {
+func NewKarkenAdaptor(c *config.Config) *KarkenAdaptor {
 	return &KarkenAdaptor{
 		config: c,
 	}
